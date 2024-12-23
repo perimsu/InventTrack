@@ -11,13 +11,15 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
         <module name="StockManagementService" />
-        <module name="ProductManagementService" />
+        <module name="OrderManagementSystem" />
         <module name="inventTrack" />
+        <module name="ProductManagementService" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="OrderManagementSystem" options="-parameters" />
       <module name="ProductManagementService" options="-parameters" />
       <module name="StockManagementService" options="-parameters" />
       <module name="inventTrack" options="-parameters" />
