@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/inventTrack/pom.xml" />
         <option value="$PROJECT_DIR$/ProductManagementService/pom.xml" />
+        <option value="$PROJECT_DIR$/StockManagementService/StockManagementService/pom.xml" />
+        <option value="$PROJECT_DIR$/StockManagementService/pom.xml" />
       </list>
     </option>
   </component>
