@@ -9,5 +9,4 @@ class InventTrackApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }

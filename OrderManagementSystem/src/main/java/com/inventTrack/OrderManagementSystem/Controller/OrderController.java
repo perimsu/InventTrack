@@ -13,7 +13,7 @@ import java.util.List;
 public class OrderController {
 
     @Autowired
-    private OrderService orderService;
+    public OrderService orderService;
 
     @GetMapping
     public ResponseEntity<List<Order>> getAllOrders(){
